@@ -10,18 +10,18 @@ namespace DotNet_Logging.SerilogDemo
 {
 	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
 			serilog();
 		}
 		static void serilog()
 		{
 			/*
-					 * 1) Package Manager - install dependencies in the working project
-					 * Install-Package Serilog
-					 * Install-Package Serilog.Sinks.Console
-					 * Install-Package Serilog.Sinks.Debug
-					 */
+			 * 1) Package Manager - install dependencies in the working project
+			 * Install-Package Serilog
+			 * Install-Package Serilog.Sinks.Console
+			 * Install-Package Serilog.Sinks.Debug
+			 */
 
 			// 2) create a logger
 			using var logger = new LoggerConfiguration()
