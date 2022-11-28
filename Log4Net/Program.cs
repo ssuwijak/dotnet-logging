@@ -16,8 +16,6 @@ namespace DotNet_Logging.Log4NetDemo
 		{
 			Log4Net();
 		}
-
-
 		static void Log4Net()
 		{
 			/*

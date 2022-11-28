@@ -3,15 +3,17 @@
  * https://betterstack.com/community/guides/logging/how-to-start-logging-with-net/
  */
 
-using System;
 using NLog;
 
-
-namespace DotNet_Logging.NLogDummy
+namespace DotNet_Logging.NLogDemo
 {
 	public class Program
 	{
 		static void Main(string[] args)
+		{
+			nlog();
+		}
+		static void nlog()
 		{
 			/*
 			 * 1) Package Manager - install dependencies in the working project

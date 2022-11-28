@@ -11,10 +11,9 @@ namespace DotNet_Logging.MsLogDemo
 	{
 		static void Main(string[] args)
 		{
-			NET_BuiltinTools();
+			mslog();
 		}
-
-		static void NET_BuiltinTools()
+		static void mslog()
 		{
 			/*
 			 * 1) Package Manager Console in the working Project
@@ -47,6 +46,5 @@ namespace DotNet_Logging.MsLogDemo
 			logger.LogError("Error message");
 			logger.LogCritical("Critical message");
 		}
-
 	}
 }
